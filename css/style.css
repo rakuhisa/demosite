@@ -1,0 +1,217 @@
+﻿@charaset "UTF-8";
+
+html{
+    color:#f5f5f5;
+    font-family:"Yu Gothic";
+}
+
+.c-marker {
+    background: -webkit-linear-gradient(left, rgb(255,0,0) 50%, transparent 50%);
+    background: -moz-linear-gradient(left, rgb(255,0,0) 50%, transparent 50%);
+    background: linear-gradient(left, rgb(255,0,0) 50%, transparent 50%);
+  background-repeat: no-repeat;
+  background-size: 200% .8em; 
+    background-position: 100% 1em;
+    transition: 2s;
+}
+.c-marker.is-active{
+    background-position: 0% 1em;
+}
+
+
+
+.article{
+    margin-bottom:0vw;
+}
+        
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    list-style: none;
+    justify-content: flex-end ;
+    color:#f5f5f5;
+    margin:0vw;
+    
+}
+.main-nav ul{
+    
+}
+
+.main-nav li{
+    margin-left:36px;
+    margin-right:36px;
+    color:#f5f5f5;   
+
+}
+
+.main-nav a{
+    font-size: 1.5vw;
+    color: inherit;
+}
+
+.main-nav a:hover{
+    text-decoration: none;    
+}
+
+#news{
+    background-image: url(../images/bg2.jpg);
+   
+    width: 100vw;
+    max-height:40vw;
+    text-align: center;       
+    
+}
+
+
+    
+
+.wrapper img{
+    max-width: 80%;    
+    height: auto;
+    width /***/:auto;    
+    margin-bottom: -3vw;
+}
+
+.wrapper h2{
+   
+    font-size: 2vw;
+    font-family: 'Mv Boli';
+    margin-top:1.5vw;
+    margin-bottom:0vw;
+}
+
+
+
+#mail{
+    width:50vw;
+    height:5vw;
+    color:#181818;
+    font-size:3vw;    
+}
+
+
+
+.format{
+    font-size:2vw;
+    display: flex;
+    flex-direction: column;
+    height:40%;
+    align-items: center;
+  　justify-content: center;
+    width:100vw;
+    background-color:#000000;
+}
+    
+.format input{
+    margin:3vw;
+   
+    height: auto;
+    box-sizing:border-box;
+}
+
+.format p{
+    font-size:5vw;
+    margin:1vw;
+}
+
+.imasugu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    
+  　height: auto;
+}
+
+.slideshow{
+    
+    width: 80vw;
+}
+
+
+.slideshow h1{
+    font-size:200%;
+}
+
+
+.slide img{
+    max-width:100%;
+}
+
+.toolbar{
+    overflow: hidden;
+    text-align:center;
+}
+
+
+
+#prev{
+    background-image: url(../images/arrow-left.png);
+    background-repeat:no-repeat;
+    width: 10vw;
+    height:10vw;    
+    order: -1;
+    
+    
+}
+
+#next{
+    background-image: url(../images/arrow-right.png) ;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height:10vw;
+    order:1;
+    
+}
+
+.image_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:2vw;
+    width:80vw
+    
+}
+
+.slide{
+    display:flex;
+    height:30vw;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/bg11.jpg) ;
+    ;
+    width:100vw;
+  　height: auto;
+    
+}
+    
+.slideshow{
+    
+    text-align:center;
+    justify-content: center;
+    width:80vw
+}
+
+#comment{
+    text-align:left;
+    font-size:1.5vw;
+    width:60vw;
+    margin:0vw 2vw;
+}
+    
+    
+footer {
+    background:#000000;
+    text-align:center;
+    padding:26px 0;
+    width: 100vw;
+}
+
+footer p{    
+    font-size: 0.875rem
+}
